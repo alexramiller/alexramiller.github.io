@@ -1,7 +1,7 @@
-#Alex Ramiller
-##PhD Student in City and Regional Planning
-##University of California Berkeley
-![Alex Ramiller](Ramiller_Photo.jpg)
+# Alex Ramiller
+## PhD Student in City and Regional Planning
+## University of California Berkeley
+![Alex Ramiller](Ramiller_Photo.jpg =300x)
 
 
 Alex is a PhD student and researcher in City and Regional Planning at UC Berkeley, studying the role of property ownership in housing affordability, gentrification, and residential displacement. Alex holds a Bachelors in geography and economics from Macalester College in St. Paul, Minnesota, and a Masters in geography from the University of Washington in Seattle, Washington.

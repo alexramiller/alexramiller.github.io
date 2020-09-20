@@ -10,4 +10,4 @@ Alex has conducted policy research and data analysis on projects for several org
 - Comparative analysis of neighborhood sustainability frameworks in Portland, Oregon
 - Spatial analysis of residential eviction filings in the Seattle metropolitan area
 
-[Class Projects](alexramiller.github.io/projects)
+[Class Projects](projects)

@@ -1,6 +1,5 @@
 # Alex Ramiller
 ![Alex Ramiller](Ramiller_Photo.jpg)
-
 ### PhD Student in City and Regional Planning
 ### University of California Berkeley
 
@@ -11,4 +10,4 @@ Alex has conducted policy research and data analysis on projects for several org
 - Comparative analysis of neighborhood sustainability frameworks in Portland, Oregon
 - Spatial analysis of residential eviction filings in the Seattle metropolitan area
 
-[Class Projects](https://alexramiller/github.io/projects)
+[Class Projects]("projects.md")

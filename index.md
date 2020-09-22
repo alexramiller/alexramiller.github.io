@@ -1,6 +1,5 @@
-# Alex Ramiller
-
 ![](Ramiller_Photo_300.jpg)
+# Alex Ramiller
 ### PhD Student in City and Regional Planning
 ### University of California Berkeley
 

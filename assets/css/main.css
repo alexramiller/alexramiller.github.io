@@ -2683,7 +2683,7 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				font-size: 1.5em;
+				font-size: 1.75em;
 			}
 
 			header.major p {
@@ -3100,7 +3100,7 @@ input, select, textarea {
 	.spotlight2 .image {
 		display: inline-block;
 		margin-left: 4em;
-		padding: 0.65em;
+		padding: 0em;/*0.65em;*/
 		border-radius: 100%;
 		border: solid 1px;
 	}
@@ -3108,7 +3108,7 @@ input, select, textarea {
 		.spotlight2 .image img {
 			display: block;
 			border-radius: 100%;
-			width: 12em; /*Change circle photo size*/
+			width: 10em; /*Change circle photo size*/
 		}
 
 	@media screen and (max-width: 980px) {
@@ -3160,7 +3160,7 @@ input, select, textarea {
 		}
 
 			.spotlight2 .image img {
-				width: 12em; /*Change circle photo size*/
+				width: 10em; /*Change circle photo size*/
 			}
 
 	}

@@ -3099,8 +3099,8 @@ input, select, textarea {
 
 	.spotlight2 .image {
 		display: inline-block;
-		margin-left: 4em;
-		padding: 0em;/*0.65em;*/
+		margin-left: 0em;/*4em;*/
+		padding: 0em;
 		border-radius: 100%;
 		border: solid 1px;
 	}
@@ -3108,7 +3108,7 @@ input, select, textarea {
 		.spotlight2 .image img {
 			display: block;
 			border-radius: 100%;
-			width: 10em; /*Change circle photo size*/
+			width: 14rem; /*Change circle photo size*/
 		}
 
 	@media screen and (max-width: 980px) {
@@ -3148,7 +3148,7 @@ input, select, textarea {
 				-ms-flex: 0 1 auto;
 				flex: 0 1 auto;
 				margin-left: 0;
-				margin-bottom: 2em;
+				margin-bottom: 0;
 			}
 
 	}
@@ -3160,7 +3160,7 @@ input, select, textarea {
 		}
 
 			.spotlight2 .image img {
-				width: 10em; /*Change circle photo size*/
+				width: 12rem; /*Change circle photo size*/
 			}
 
 	}

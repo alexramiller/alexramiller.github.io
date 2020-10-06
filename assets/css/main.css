@@ -198,7 +198,7 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
-		white-space: nowrap; /*Remove?*/
+		/*white-space: nowrap; /*Remove?*/
   	/*overflow: hidden;*/
 	}
 
@@ -2639,7 +2639,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 
 		header.major h2 {
@@ -2810,7 +2810,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		margin: 0 0 1em -2em;
 		padding: 0;
 		list-style: none;
 	}
@@ -2837,7 +2837,7 @@ input, select, textarea {
 			}
 
 				.features li:nth-child(3) {
-					margin-top: 3em;
+					margin-top: 0;
 				}
 
 		}
@@ -2860,6 +2860,83 @@ input, select, textarea {
 					}
 
 		}
+
+		.features2 {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			width: calc(100% + 2em);
+			margin: 0 0 1em -2em;
+			padding: 0;
+			list-style: none;
+		}
+
+			.features2 li {
+				/*width: calc(50% - 2em);*/
+				margin-left: 2em;
+				margin-top: 0;
+				padding: 0;
+			}
+
+			.features2 li:nth-child(1) {
+				width: calc(27.5% - 2em);
+			}
+
+				.features2 li:nth-child(2) {
+					width: calc(30% - 2em);
+				}
+
+				.features2 li:nth-child(3) {
+					/*width: calc(45% - 2em);*/
+				}
+
+
+				.features2 li > :last-child {
+					margin-bottom: 0;
+				}
+
+			@media screen and (max-width: 736px) {
+
+				.features2 {
+					width: 100%;
+					margin: 0 0 2em 0;
+				}
+
+					.features2 li {
+						width: 100%;
+						margin-top: 0;
+					}
+
+					.features2 li:nth-child(1) {
+						display:block;
+						justify-content: center;
+						width: 50%;
+						margin-top: 2em;
+					}
+
+					.features2 li:nth-child(2) {
+						display:block;
+						text-align:center;
+						width: 100%;
+					}
+
+					.features2 li:nth-child(3) {
+						display:block;
+						text-align:center;
+						width: 100%;
+					}
+
+			}
+
 
 /* Statistics */
 
@@ -3013,6 +3090,14 @@ input, select, textarea {
 				width: 16em;
 			}
 
+			.spotlight .image2 img {
+				display: block;
+				border-radius: 100%;
+				width: 13rem;
+				margin-right: 3em;
+			}
+
+
 		@media screen and (max-width: 980px) {
 
 			.spotlight {
@@ -3065,6 +3150,15 @@ input, select, textarea {
 					width: 12em;
 				}
 
+				.spotlight .image2 {
+					padding: 0.35em;
+				}
+
+					.spotlight .image2 img {
+						width: 12rem;
+					}
+
+
 		}
 
 	.spotlight .image {
@@ -3073,15 +3167,15 @@ input, select, textarea {
 
 /*Spotlight 2*/
 .spotlight2 {
-	display: -moz-flex;
+	/*display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
 	-moz-align-items: center;
 	-webkit-align-items: center;
 	-ms-align-items: center;
-	align-items: center;
-	margin: 0 0 2em 0;
+	align-items: center;*/
+	margin: 1em 0 0.5em 0;
 }
 
 	.spotlight2 .content {
@@ -3101,16 +3195,16 @@ input, select, textarea {
 
 	.spotlight2 .image {
 		display: inline-block;
-		margin-left: 1.75em;/*4em;*/
-		padding: 0em;
+		/*margin-left: 1.75em;/*4em;*/
 		border-radius: 100%;
 		border: solid 1px;
+		margin: 0 0 0 0;
 	}
 
 		.spotlight2 .image img {
 			display: block;
 			border-radius: 100%;
-			width: 14rem; /*Change circle photo size*/
+			width: 13rem; /*Change circle photo size*/
 		}
 
 	@media screen and (max-width: 980px) {
@@ -3158,7 +3252,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.spotlight2 .image {
-			padding: 0.35em;
+			padding: 0;
 		}
 
 			.spotlight2 .image img {
@@ -3360,7 +3454,7 @@ input, select, textarea {
 		}
 
 		#nav + #main {
-			padding-top: 4.25em;
+			padding-top: 2.5em;
 		}
 
 		#nav ul {

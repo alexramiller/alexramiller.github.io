@@ -3792,7 +3792,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 3em 5em 2em 5em ; /*PANEL MARGINS*/
 			border-top: solid 1px #dddddd;
 		}
 

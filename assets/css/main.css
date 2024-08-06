@@ -3931,9 +3931,9 @@ input, select, textarea {
 	}
 
 		#footer > * {
-			/*width: calc(50% - 2em);
-			margin-left: 2em;*/
-			text-align: center;
+			width: calc(50% - 3.5em);
+			margin-left: 3.5em;
+			text-align: left;
 		}
 
 		/*#footer .copyright {

@@ -4,6 +4,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
 <html>
 	<head>
     <link rel="icon" href="images/favicon-32x32.png">
@@ -91,7 +96,9 @@
 							Schmahmann, L., <b>Ramiller, A.</b>, & Fields, D. (2023). Platform Firms, Commercial Real Estate Cycles and San Francisco’s Growth as a Tech Cluster, 2008–2020. <i>Annals of the American Association of Geographers</i>.
 						</a>
 					</li>
-					<li>
+				</div>
+				<div id="collapsible" class="collapse" style="text-align:left">
+				<li>
 						<a href = "https://journals.sagepub.com/doi/abs/10.1177/0739456X231175593">
 							Walter, R. J., Tillyer, M. S., <b>Ramiller, A.</b>, & Acolin, A. (2023). Scaling Down from the Neighborhood in Urban Planning Research and Practice: The Potential Benefits of a Micro-Scale Focus. <i>Journal of Planning Education and Research.</i>
 						</a>
@@ -131,12 +138,16 @@
 							<b>Ramiller, A.</b>, & Schmidt, P. (2018). Scale limits to sustainability: Transdisciplinary evidence from three Danish cases. <i>Environmental Innovation and Societal Transitions</i>, 27, 48-58.
 						</a>
 					</li>
-				<li>
-					<a href = "https://digitalcommons.macalester.edu/geography_honors/56">
-						<b>Ramiller, A.</b> (2018). “From the Neighborhood Up!”: Neighborhood Sustainability Certification Frameworks and the New Urban Politics of Scale. <i>Macalester College Digital Commons.</i>
-					</a>
-				</li>
-	</ul>
+					<li>
+						<a href = "https://digitalcommons.macalester.edu/geography_honors/56">
+							<b>Ramiller, A.</b> (2018). “From the Neighborhood Up!”: Neighborhood Sustainability Certification Frameworks and the New Urban Politics of Scale. <i>Macalester College Digital Commons.</i>
+						</a>
+					</li>
+				</div>
+				</ul>
+				<div align="center">
+					<button id="collapseButton" type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapsible" onclick="changeName()">View More</button>
+				</div>
 </section>
 
 <section id="reports" class="main special">
@@ -146,23 +157,37 @@
 	<ul class="main">
 		<div style="text-align:left">
 			<li>
+				<a href="https://publicadvocates.org/resources/report-rhna-bay-area-441000-homes/"><b>
+				The RHNA Reality Check: How Bay Area Cities Say They'll Build 441,000 Homes (2025)</b></a></br><i>Public Advocates</i>
+			</li>
+			<li>
+				<a href="https://publicadvocates.org/resources/report-fair-housing-affh-bay-area-housing-element/"><b>
+				Fair Housing: Promises or Progress? Unpacking Bay Area Housing Element Programs through an AFFH Lens (2025)</b></a></br><i>Public Advocates</i>
+			</li>
+			<li>
+				<a href="https://www.frbsf.org/research-and-insights/publications/community-development-research-briefs/2024/11/homeownership-opportunities-beyond-single-family/"><b>
+					Homeownership Opportunities Beyond Single-Family: Quantifying the Current Landscape (2024)</b></a></br><i>Federal Reserve Bank of San Francisco</i>
+			</li>
+			<li>
 				<a href="https://www.huduser.gov/portal/publications/Examining-the-Housing-Neighborhood-Trajectories.html"><b>
-				Examining the Housing and Neighborhood Trajectories for Former HUD-Assisted Households with Children (2024).</b></a></br><i>HUD Office of Policy Development and Research.</i>
+				Examining the Housing and Neighborhood Trajectories for Former HUD-Assisted Households with Children (2024)</b></a></br><i>HUD Office of Policy Development and Research</i>
 			</li>
 			<li>
 				<a href="https://www.ccbuilders.org/moderate-middle-income-california-racial-wealth-gap"><b>
-				California’s Missing Middle: Middle-Income California is Large, Diverse, and Left Out of the Housing Conversation (2024).</b></a></br><i>California Community Builders.</i>
+				California’s Missing Middle: Middle-Income California is Large, Diverse, and Left Out of the Housing Conversation (2024)</b></a></br><i>California Community Builders</i>
 			</li>
 			<li>
 				<a href = "https://ternercenter.berkeley.edu/research-and-policy/prohousing-designation-program-evaluation/"><b>
-				California’s Prohousing Designation Program: Rewarding City and County Policies that Boost Housing Supply‬ (2023).</b></a></br><i>Terner Center for Housing Innovation.</i>
+				California’s Prohousing Designation Program: Rewarding City and County Policies that Boost Housing Supply (2023)</b></a></br><i>Terner Center for Housing Innovation</i>
 			</li>
+		</div>
+		<div id="collapsible2" class="collapse" style="text-align:left">
 			<li>
 				<a href = "https://www.frbsf.org/research-and-insights/publications/community-development-research-briefs/2023/12/understanding-cdfi-financial-data/"><b>
-				Understanding CDFI Financial Data: A Primer for New Investors (2023).</b></a></br><i>Federal Reserve Bank of San Francisco.</i>
+				Understanding CDFI Financial Data: A Primer for New Investors (2023)</b></a></br><i>Federal Reserve Bank of San Francisco</i>
 			<li>
 				<a href = "https://www.urbandisplacement.org/wp-content/uploads/2022/04/Examining_the_Unintended_Effects_of_Climate_Change_Mitigation.pdf"><b>
-				Examining the Unintended Consequences of Climate Change Mitigation (2021).</b></a></br><i>Urban Displacement Project.</i>
+				Examining the Unintended Consequences of Climate Change Mitigation (2021)</b></a></br><i>Urban Displacement Project</i>
 			</li>
 			<li>
 				<a href = "https://evictionresearch.net/washington/"><b>
@@ -170,6 +195,9 @@
 			</li>
 		</div>
 	</ul>
+	<div align="center">
+		<button id="collapseButton2" type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapsible2" onclick="changeName()">View More</button>
+	</div>
 </section>
 
 <section id="dashboards" class="main special">
@@ -213,11 +241,10 @@
 <footer id="footer">
 	<section>
 		<ul class="icons">
-			<li><a href="mailto:alexramiller@gmail.com" class="icon fas fa-envelope solid alt"><span class="label">Email</span></a></li>
-			<!--<li><a href="https://twitter.com/AlexRamiller" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>-->
-			<li><a href="https://www.linkedin.com/in/alexramiller/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
-			<li><a href="https://scholar.google.com/citations?user=nJPXHkUAAAAJ&hl=en" class="icon fas fa-graduation-cap solid alt"><span class="label">Google Scholar</span></a></li>
-			<li><a href="https://github.com/alexramiller" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li></br>
+			<li><a href="mailto:alexramiller@gmail.com" class="icon fas fa-envelope solid alt" style="text-decoration:none"><span class="label">Email</span></a></li>
+			<li><a href="https://www.linkedin.com/in/alexramiller/" class="icon brands fa-linkedin alt" style="text-decoration:none"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://scholar.google.com/citations?user=nJPXHkUAAAAJ&hl=en" class="icon fas fa-graduation-cap solid alt" style="text-decoration:none"><span class="label">Google Scholar</span></a></li>
+			<!--<li><a href="https://github.com/alexramiller" class="icon brands fa-github alt" style="text-decoration:none"><span class="label">GitHub</span></a></li></br>-->
 			<p><br/>Design Based On: <a href="https://html5up.net">HTML5 UP</a></p>
 		</ul>
 	</section>
@@ -232,6 +259,7 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/namechange.js"></script>
 
 </body>
 </html>
